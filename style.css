@@ -92,6 +92,7 @@ h2 {
   justify-content: center;
   font-weight: 700;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .bubble:hover {
