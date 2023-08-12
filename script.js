@@ -62,7 +62,7 @@ function makeBubble() {
   pannel2.innerHTML = "";
 
   // Calculate the number of bubbles based on the screen size
-  var maxBubbles = window.innerWidth < 420 ? 40 : 230;
+  var maxBubbles = window.innerWidth < 420 ? 40 : 112;
 
   for (let i = 1; i <= maxBubbles; i++) {
     var random_no = Math.floor(Math.random() * 10);
