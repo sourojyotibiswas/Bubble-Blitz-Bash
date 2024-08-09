@@ -53,7 +53,7 @@ function runTimmer() {
       timmerclock.innerHTML = timer;
     } else {
       clearInterval(timerint);
-      pannel2.innerHTML = `<h1>Game Over! &#128405;</h1>`;
+      pannel2.innerHTML = `<h1>Game Over!</h1>`;
     }
   }, 1000);
 }
